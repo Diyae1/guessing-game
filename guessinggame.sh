@@ -1,5 +1,5 @@
 #function to count files
-count_files() {
+function count_files() {
 echo $(ls -1 | wc -l)
 }
 #store file's number
